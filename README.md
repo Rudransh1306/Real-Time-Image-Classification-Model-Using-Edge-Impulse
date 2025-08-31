@@ -5,5 +5,8 @@
 
 An AI model, built with EDGE Impulse designed to classify what a camera is seeing in real life.
 
-![Project Demo](assets/demo.gif)
+![Project Demo] (assets/demo.gif)
+
+## Table of Contents
+* [About the Project] (#-about-the-project)
 
