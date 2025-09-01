@@ -65,7 +65,7 @@ There are two ways you can get started with this project: testing the final, opt
 
 This model has been deployed as a standalone web application, allowing you to run the fully optimized version directly in your phone's browser.
 
-1.  **Open the Project:** Go to the public Edge Impulse project here: `https://studio.edgeimpulse.com/public/772968/live`
+1.  **Open the Project:** Go to the public Edge Impulse project here: `(https://studio.edgeimpulse.com/public/772968/live)`
 2.  **Navigate to Deployment:** In the left-hand menu, click on the **Deployment** tab.
 3.  **Build the Model:** Under 'Build firmware', find and select the **WebAssembly** option, then click the **Build** button. 
 4.  **Scan the QR Code:** After a moment, a QR code will appear. Scan this with your smartphone's camera.
@@ -117,7 +117,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Acknowledgements 
+## Acknowledgments 
 * The [Edge Impulse](https://www.edgeimpulse.com/) team for their fantastic platform.
 * The participants of the Vision workshop.
 
