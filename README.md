@@ -22,6 +22,14 @@ This project demonstrates the accessibility of modern TinyML through a complete,
 
 The repository covers the full process: collecting data, training a model, and deploying it. Using platforms like Edge Impulse, building and deploying machine learning models at the edge is now approachable for anyone, not just experts.
 
+## The Model
+
+* **Task:** Real-Time Image Classification
+* **Classifies:** `Keys,Lamps,Unknown'
+* **Base Architecture:** Mobile Net V2 96*96
+* **Public Edge Impulse Project:** [View the full project setup here]([https://studio.edgeimpulse.com/public/772968/live])
+
+
 
 
 
