@@ -8,15 +8,15 @@ An AI model, built with EDGE Impulse designed to classify what a camera is seein
 ![Project Demo](assets/demo.gif)
 
 ## Table of Contents
-* [About the Project](#-about-the-project)
-*  [The Model](#-the-model)
-* [Technology Stack](#-technology-stack)
-* [Project Workflow](#-project-workflow)
-* [Getting Started](#-getting-started)
-* [License](#-license)
-* [Acknowledgments](#-acknowledgments)
+* [About the Project](#about-the-project)
+* [The Model](#the-model)
+* [Technology Stack](#technology-stack)
+* [Project Workflow](#project-workflow)
+* [Getting Started](#getting-started)
+* [License](#license)
+* [Acknowledgments](#acknowledgments)
 
-##About the Project
+## About the Project
 
 This project demonstrates the accessibility of modern TinyML through a complete, end-to-end workflow. At its core is a custom-trained image classification model that runs entirely on-device—making it fast, private, and reliable without needing an internet connection.
 
