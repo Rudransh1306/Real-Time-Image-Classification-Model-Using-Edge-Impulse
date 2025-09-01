@@ -13,6 +13,7 @@ An AI model, built with EDGE Impulse designed to classify what a camera is seein
 * [Technology Stack](#technology-stack)
 * [Project Workflow](#project-workflow)
 * [Getting Started](#getting-started)
+* [Use Cases](#use-cases)
 * [License](#license)
 * [Acknowledgments](#acknowledgments)
 
@@ -28,6 +29,8 @@ The repository covers the full process: collecting data, training a model, and d
 * **Classifies:** `Keys,Lamps,Unknown'
 * **Base Architecture:** Mobile Net V2 96*96
 * **Public Edge Impulse Project:** [View the full project setup here](https://studio.edgeimpulse.com/public/772968/live)
+
+
 
 
 
