@@ -27,17 +27,18 @@ The repository covers the full process: collecting data, training a model, and d
 
 * **Task:** Real-Time Image Classification
 * **Classifies:** Keys,Lamps,Unknown
-* **Base Architecture:** Mobile Net V2 96*96
-* **Public Edge Impulse Project:** [View the full project setup here](https://studio.edgeimpulse.com/public/772968/live)
+* **Base Architecture:** Mobile Net V2 96x96
+* **Public Edge Impulse Project:** [View the full project setup here](https://studio.edgeimpulse.com/public/772968/dashboard)
 
 ### Performance Metrics 
 The model was optimized for on-device performance:
-
+(Metrics for 32 bit quantised model)
 |Metric            |Value          |
 |----------------------------------|
-|Accuracy Score    |98%            |
-|Latency           |               |
-|Model Size        |               |
+|Testing Accuracy  |91.89%         |
+|Latency           |7ms            |
+|Ram               |893.7k         |
+|Flash             |1.6M           |
 
 ## Technology Stack
 
@@ -65,7 +66,7 @@ There are two ways you can get started with this project: testing the final, opt
 
 This model has been deployed as a standalone web application, allowing you to run the fully optimized version directly in your phone's browser.
 
-1.  **Open the Project:** Go to the public Edge Impulse project here: `(https://studio.edgeimpulse.com/public/772968/live)`
+1.  **Open the Project:** Go to the public Edge Impulse project here: `https://studio.edgeimpulse.com/public/772968/dashboard`
 2.  **Navigate to Deployment:** In the left-hand menu, click on the **Deployment** tab.
 3.  **Build the Model:** Under 'Build firmware', find and select the **WebAssembly** option, then click the **Build** button. 
 4.  **Scan the QR Code:** After a moment, a QR code will appear. Scan this with your smartphone's camera.
@@ -77,21 +78,16 @@ This model has been deployed as a standalone web application, allowing you to ru
 If you want to inspect the data, see the model settings, or train your own version, you can clone the entire Edge Impulse project.
 
 1.  **Sign Up:** If you don't have one, create a free account at [Edge Impulse](https://www.edgeimpulse.com/).
-2.  **Open the Project:** Go to the public Edge Impulse project here: `https://studio.edgeimpulse.com/public/772968/live`
+2.  **Open the Project:** Go to the public Edge Impulse project here: `https://studio.edgeimpulse.com/public/772968/dashboard`
 3.  **Clone:** At the top of the project dashboard, click the **Clone** button.
 4.  **Explore:** The project, including its full dataset and model configuration, will be copied to your own account.
 
 ## Use Cases
-* **Smart Homes** – Control appliances by detecting objects like remotes, bottles,
-  or specific gestures.
-* **Retail & Inventory** – Detect and count products on shelves for stock
-  management.
-* **Security & Surveillance** – Identify people, vehicles, or suspicious objects in
-restricted areas.
-* **Environmental Monitoring** – Recognize plants, animals, or waste materials
-  for ecological studies.
-* **Traffic Management** – Detect vehicles and pedestrians for smart city
-  solutions.
+* **Smart Homes:** Classifying if a room is 'occupied' or 'empty' based on the camera view.
+* **Retail:** Analyzing a shelf to classify its status as 'fully stocked', 'low stock', or 'empty'.
+* **Industrial Safety:** Classifying if a worker in front of a machine is wearing a 'hard hat' or 'no hard hat'.
+* **Environmental Monitoring:** Classifying an image as containing 'recyclable plastic' or 'other waste'.
+* **Agriculture:** Taking a picture of a leaf and classifying it as 'healthy' or 'diseased'.
 
 ## License
 
